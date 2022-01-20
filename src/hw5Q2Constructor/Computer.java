@@ -14,13 +14,13 @@ public class Computer {
 
 	}
 
-	public Computer(String brand, String model, String operatingSystem,long price, char grade, boolean madeIUsa) {
+	public Computer(String brand, String model, String operatingSystem,long price, char grade, boolean madeInUSA) {
 		this.brand = brand;
 		this.model = model;
 		this.operatingSystem = operatingSystem;
 		this.price = price;
 		this.grade = grade;
-		this.madeInUSA = madeInUSA;
+		this.madeInUSA =madeInUSA;
 
 		System.out.println("My Brand:" + brand + ", Model: " + model + ", Operating System: " + operatingSystem
 				+ ". Price: " + price + "$, Grade: " + grade + ". Made In USA? Ans:" + madeInUSA);
