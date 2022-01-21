@@ -1,9 +1,9 @@
-package h5Q3Constructor;
+package hw5Q3Constructor;
 
 public class Student {
 
 	public String stName;
-	public int stId;
+	public int stID;
 	public char sex;
 	public float grade;
 	public boolean isProgrammer;
@@ -12,15 +12,15 @@ public class Student {
 		System.out.println("This is from default constructor of Student class.");
 	}
 
-	public Student(String stName, int stId, char sex, float grade, boolean isProgrammer) {
+	public Student(String stName, int stID, char sex, float grade, boolean isProgrammer) {
 		this.stName = stName;
-		this.stId = stId;
+		this.stID = stID;
 		this.sex = sex;
 		this.grade = grade;
 		this.isProgrammer = isProgrammer;
 
-		System.out.println("Student Name: " + stName + ",  ID:" + stId + ", Sex:" + sex + ", Grade=" + grade
-				+ ",and JavaProgrammer?Ans: " + isProgrammer+".");
+		System.out.println("Student Name: " + stName + ",  ID:" + stID + ", Sex:" + sex + ", Grade=" + grade
+				+ " and JavaProgrammer?Ans: " + isProgrammer + ".");
 
 	}
 

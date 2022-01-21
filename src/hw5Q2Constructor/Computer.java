@@ -5,7 +5,7 @@ public class Computer {
 	public String brand;
 	public String model;
 	public String operatingSystem;
-	public long price;
+	public int price;
 	public boolean madeInUSA;
 	public char grade;
 
@@ -14,7 +14,7 @@ public class Computer {
 
 	}
 
-	public Computer(String brand, String model, String operatingSystem,long price, char grade, boolean madeInUSA) {
+	public Computer(String brand, String model, String operatingSystem,int price, char grade, boolean madeInUSA) {
 		this.brand = brand;
 		this.model = model;
 		this.operatingSystem = operatingSystem;
@@ -23,7 +23,7 @@ public class Computer {
 		this.madeInUSA =madeInUSA;
 
 		System.out.println("My Brand:" + brand + ", Model: " + model + ", Operating System: " + operatingSystem
-				+ ". Price: " + price + "$, Grade: " + grade + ". Made In USA? Ans:" + madeInUSA);
+				+ ". Price: " + price + "$, Grade: " + grade + " and Made In USA? Ans:" + madeInUSA);
 
 	}
 
