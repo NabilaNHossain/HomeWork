@@ -1,14 +1,10 @@
 package hw4Q2JavaVariables;
 
-import java.sql.Date;
-
-import javax.accessibility.AccessibleExtendedText;
-
 public class TestAboutMe {
 	public static void main(String[] args) {
-		AboutMe me = new AboutMe();// CONSTRUCTOR IS INITIALIZED HERE WHEN THE OBJECT CREATED//
-
-		// VARIABLES ARE INITIALIZED IN HERE //
+// Constructor initialized
+		AboutMe me = new AboutMe();
+// Variables initialized
 		me.name = "Nabila";
 		me.age = 127;
 		me.attendedDaysInEnthrallIt = 23;
@@ -18,14 +14,10 @@ public class TestAboutMe {
 		me.weight = 5.6524;
 		me.sex = 'f';
 		me.workInTheItIndustry = true;
-
-		me.aboutMe();// METHOD IS INITIALIZED/CALLED BY THE OBJECT CREATED//
+		me.aboutMe();// Method initialized
 
 		System.out.println("--------------------------------");
-		
-	
 		AboutMe me3 = new AboutMe();
-
 		me3.name = "Alex";
 		me3.age = 14;
 		me3.attendedDaysInEnthrallIt = 7;
@@ -35,7 +27,6 @@ public class TestAboutMe {
 		me3.weight = 94.5;
 		me3.sex = 'm';
 		me3.workInTheItIndustry = false;
-
 		me3.aboutMe();
 
 	}
