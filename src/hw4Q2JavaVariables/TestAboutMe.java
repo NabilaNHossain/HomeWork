@@ -2,9 +2,9 @@ package hw4Q2JavaVariables;
 
 public class TestAboutMe {
 	public static void main(String[] args) {
-// Constructor initialized
+       // Constructor initialized
 		AboutMe me = new AboutMe();
-// Variables initialized
+      // Variables initialized
 		me.name = "Nabila";
 		me.age = 127;
 		me.attendedDaysInEnthrallIt = 23;
@@ -14,7 +14,8 @@ public class TestAboutMe {
 		me.weight = 5.6524;
 		me.sex = 'f';
 		me.workInTheItIndustry = true;
-		me.aboutMe();// Method initialized
+		me.aboutMe();
+	  // Method initialized
 
 		System.out.println("--------------------------------");
 		AboutMe me3 = new AboutMe();

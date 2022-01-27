@@ -1,7 +1,7 @@
 package hw4Q2JavaVariables;
 
 public class AboutMe {
-	// Variables declared 
+	//Variables declared
 	public String name;
 	public byte age;
 	public short attendedDaysInEnthrallIt;
@@ -12,12 +12,12 @@ public class AboutMe {
 	public char sex;
 	public boolean workInTheItIndustry;
 
-//Constructor declared
+	//Constructor declared
 	public AboutMe() {
 		System.out.println("This is all about me: ");
 	}
 
-//Method implemented
+	//Method implemented
 	public void aboutMe() {
 		System.out.println(
 				"Hi,my name is: " + name + " .I am " + age + " years old.\nI have been a student at EnthrallIT for "

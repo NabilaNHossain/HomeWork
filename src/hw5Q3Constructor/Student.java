@@ -18,8 +18,8 @@ public class Student {
 		this.sex = sex;
 		this.grade = grade;
 		this.isProgrammer = isProgrammer;
-		System.out.println("Student Name:" + stName + ", ID:"
-				+ stID + ", Sex:" + sex + ", Grade=" + grade + " and Java Programmer? Ans:" + isProgrammer + ".");
+		System.out.println("Student Name:" + stName + ", ID:" + stID + ", Sex:" + sex + ", Grade=" + grade
+				+ " and Java Programmer? Ans:" + isProgrammer + ".");
 
 	}
 

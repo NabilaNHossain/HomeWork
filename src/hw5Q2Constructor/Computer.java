@@ -10,7 +10,7 @@ public class Computer {
 	public char grade;
 
 	public Computer() {
-		System.out.println("This is from default Constructor of Computer Class.");
+		System.out.println("This is from default Constructor of Computer class.");
 
 	}
 
@@ -22,10 +22,12 @@ public class Computer {
 		this.grade = grade;
 		this.madeInUSA =madeInUSA;
 
-		System.out.println("My Brand:" + brand + ", Model: " + model + ", Operating System: " + operatingSystem
-				+ ". Price: " + price + "$, Grade: " + grade + " and Made In USA? Ans:" + madeInUSA);
+		System.out.println("My Brand: " + brand + ", Model: " + model + ", Operating System: " + operatingSystem
+				+ ", Price: " + price + "$, Grade: " + grade + " and Made in USA? Ans:" + madeInUSA);
 
 	}
+}
 
-	}
+
+	
 
