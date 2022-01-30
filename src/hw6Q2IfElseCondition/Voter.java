@@ -1,7 +1,6 @@
 package hw6Q2IfElseCondition;
 
 public class Voter {
-
 	public static void main(String[] args) {
 		int age = 33;
 		if (age == 18) {
@@ -13,7 +12,6 @@ public class Voter {
 		} else {
 			System.out.println("Please add a valid age");
 		}
-
 	}
 
 }
