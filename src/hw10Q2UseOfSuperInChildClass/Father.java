@@ -8,17 +8,16 @@ public class Father {
 	public String familyName;
 
 	public Father() {
-		System.out.println("This is from the default constructor of the Father class");
+		System.out.println("This is from the default constructor of the Father class.");
 	}
 
 	public Father(String name, int age, char sex, boolean usCitizen) {
-		super();
 		this.name = name;
 		this.age = age;
 		this.sex = sex;
 		this.usCitizen = usCitizen;
-		System.out.println("Father's name is:" + name + ".Age is " + age + ".Father is a " + sex
-				+ ".Is Father UScitizen?Ans:" + usCitizen);
+		System.out.println("Father's name is: " + name + ".Age is " + age + ".Father is a " + sex
+				+ ".Is Father UScitizen?Ans: " + usCitizen);
 	}
 
 	public void father() {
@@ -30,8 +29,8 @@ public class Father {
 		this.age = age;
 		this.sex = sex;
 		this.usCitizen = usCitizen;
-		System.out.println("Father's name is:" + name + ".His age is " + age + ".Father is a " + sex
-				+ ".Is Father UScitizen?Ans:" + usCitizen);
+		System.out.println("Father's name is: " + name + ".His age is " + age + ".Father is a " + sex
+				+ ".Is Father UScitizen?Ans: " + usCitizen);
 	}
 
 }
