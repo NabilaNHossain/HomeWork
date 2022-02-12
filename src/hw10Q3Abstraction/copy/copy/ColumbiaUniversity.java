@@ -1,30 +1,64 @@
 package hw10Q3Abstraction.copy.copy;
 
-/*One keyword is used for the inheritance for a Regular class,which is "extends".Yes,a Regular class can inherit       an Abstract class using the extends keyword.A Regular class can inherit only one Regular or Abstract class.
-*/
-public class ColumbiaUniversity extends MedicalSchool {
+/*Two keywords can be used for inheritance in Java Regular class.Yes,a Regular class can inherit one Regular or one abstract class by using the word "extends. While at the same time a Regular class can inherit more than one Interface by using the word "implements".More than one inheritance is possible by an Abstract class.*/
+public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool {
 	public ColumbiaUniversity() {
 	}
-
-	/*
-	 * public abstract void chemistry(); The abstract method chemistry in type
-	 * ColumbiaUniversity can only be defined by an abstract class.Inside a Regular
-	 * classMethod can only be implemented.
-	 */
 
 	public void biology() {
 		System.out.println("This outcome is from the Biology");
 	}
 
 	@Override
-	public void anatomyLab() {
-		// TODO Auto-generated method stub
+	public void emergencyRoom() {
+	}
 
+	@Override
+	public void surgeryRoom() {
+	}
+
+	@Override
+	public void cafeteria() {
+	}
+
+	@Override
+	public void commonRoom() {
+	}
+
+	@Override
+	public void laboratory() {
+	}
+
+	@Override
+	public void languageClub() {
+	}
+
+	@Override
+	public void lawSchoollInfo() {
+	}
+
+	@Override
+	public void vocatinalInfo() {
+	}
+
+	@Override
+	public void classSize() {
+	}
+
+	@Override
+	public void playGround() {
+	}
+
+	@Override
+	public void teacher() {
+	}
+
+	@Override
+	public void anatomyLab() {
 	}
 
 	@Override
 	public void hygeine() {
-		// TODO Auto-generated method stub
-
 	}
+
 }

@@ -1,6 +1,7 @@
 package hw10Q3Abstraction.copy.copy;
-/*MedicalSchool abstract class use extends keyword to inherit NursingSchool abstract class. An abstract class can use only one keyword,extends,for inheritance.An abstract class can inherit only one regular or abstract class, but cannot inherit interface by extend keyword. */
-public abstract class MedicalSchool extends NursingSchool {
+
+/*Two keywords can be used for inheritance in Java Abstract class.Yes,an Abstract class can inherit one Regular or one Abstract class by using the word "extends. While at the same time an Abstract class can inherit more than one Interface by using the word "implements". More than one inheritance is possible by a Regular class */
+public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public MedicalSchool() {
 	}
 

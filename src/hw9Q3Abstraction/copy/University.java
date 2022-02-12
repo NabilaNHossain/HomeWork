@@ -1,11 +1,11 @@
 package hw9Q3Abstraction.copy;
-    //There is only one keyword "extends" which is used for inheritance in Interface 
 
 public interface University extends Hospital, College {
 	/*
-	 * University Interface extends to Hospital and College interface by using the
-	 * keyword extends. .However,an Interface cannot inherit a regular or abstract
-	 * class.One interface can inherit more than one Interfaces
+	 * One keyword is used for the inheritance in Interface. University Interface
+	 * extends to Hospital and College interface by using the keyword
+	 * extends.However,an Interface cannot inherit a Regular or an Abstract
+	 * class.More than one inheritance is possible.
 	 */
 	public void classSize();
 
