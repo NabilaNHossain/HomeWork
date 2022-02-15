@@ -12,8 +12,8 @@ public class Employee {
 
 	/*
 	 * We can access the private variables by Getters and Setters. We can access the
-	 * Getters and Setters two ways:1)Source-->Generate Getters and Setters
-	 * or,2)select all the declared variables-->right click-->Source-->Generate
+	 * Getters and Setters two ways: 1)Source-->Generate Getters and Setters
+	 * or, 2)select all the declared variables-->right click-->Source-->Generate
 	 * Getters and Setters
 	 */
 	public void setName(String name) {

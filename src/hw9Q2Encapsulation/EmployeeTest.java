@@ -8,8 +8,8 @@ public class EmployeeTest {
 		employee.setAge(40);
 		employee.setSex('M');
 		employee.setUsCitizen(false);
-		System.out.println("Hello!I am " + employee.getName() + ". I am " + employee.getAge() + " years old. I am a "
-				+ employee.getSex() + ". Am I a US citizen?Ans:" + employee.isUsCitizen() + ".");
+		System.out.println("Hello! I am " + employee.getName() + ". I am " + employee.getAge() + " years old. Sex: "
+				+ employee.getSex() + ". Am I a US citizen? Ans: " + employee.isUsCitizen() + ".");
 
 	}
 
