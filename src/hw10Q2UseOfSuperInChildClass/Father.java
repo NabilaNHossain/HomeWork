@@ -16,8 +16,8 @@ public class Father {
 		this.age = age;
 		this.sex = sex;
 		this.usCitizen = usCitizen;
-		System.out.println("Father's name is: " + name + ".Age is " + age + ".Father is a " + sex
-				+ ".Is Father UScitizen?Ans: " + usCitizen);
+		System.out.println("Father's name is: " + name + ". Age is " + age + ". Father is a " + sex
+				+ ". Is Father UScitizen?Ans: " + usCitizen);
 	}
 
 	public void father() {
@@ -29,8 +29,8 @@ public class Father {
 		this.age = age;
 		this.sex = sex;
 		this.usCitizen = usCitizen;
-		System.out.println("Father's name is: " + name + ".His age is " + age + ".Father is a " + sex
-				+ ".Is Father UScitizen?Ans: " + usCitizen);
+		System.out.println("Father's name is: " + name + ". His age is " + age + ". Father is a " + sex
+				+ ". Is Father UScitizen?Ans: " + usCitizen);
 	}
 
 }
