@@ -14,21 +14,12 @@ public class Daughter extends Father {
 	}
 
 	public Daughter(String birthMonth, int age) {
-		super("Harry", 40, 'M', false);
-		super.father();
-		super.fatherInfo("Albus", 60, 'M', true);
-		super.familyName = "Dumbledore";
-		System.out.println("The family name is: " + familyName + ".");
 		this.birthMonth = birthMonth;
 		this.age = age;
-		System.out.println("My daughter is born in " + birthMonth + ". Her age is " + age + ".");
+		System.out.println("I was born in " + birthMonth + ". My age is " + age + ".");
 	}
 
 	public void daughter() {
-		super.father();
-		super.fatherInfo("Ronald", 45, 'M', false);
-		super.familyName = "Weasely";
-		System.out.println("The family name is: " + familyName + ".");
 		System.out.println("This is from the void method of the Daughter class.");
 	}
 
@@ -39,7 +30,7 @@ public class Daughter extends Father {
 		System.out.println("The family name is: " + familyName + ".");
 		this.birthMonth = birthMonth;
 		this.age = age;
-		System.out.println("My daughter is born in " + birthMonth + ". Her age is " + age + ".");
+		System.out.println("I was born in " + birthMonth + ". My age is " + age + ".");
 	}
 
 }
